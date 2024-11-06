@@ -1,4 +1,4 @@
-package src;
+package src.controle;
 
 public class Break {
 

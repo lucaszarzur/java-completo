@@ -68,7 +68,6 @@ public class SwitchComBreak {
 			break;
 		default:
 			System.out.println("Vencimento sem data, desculpe");
-
 		}
 	}
 }

@@ -13,6 +13,7 @@ public class Carro {
 	void alterarModelo(String modelo) {
 		if (modelo != null) {
 			this.modelo = modelo;
+			//modelo = modelo;
 		}
 	}
 	

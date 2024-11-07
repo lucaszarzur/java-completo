@@ -1,4 +1,4 @@
-package classe;
+package objeto_this.exemplo2;
 
 public class This {
 

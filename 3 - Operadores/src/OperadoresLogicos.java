@@ -10,19 +10,17 @@ public class OperadoresLogicos {
 		boolean executouTrabalho1 = false;
 		boolean executouTrabalho2 = true;
 		
-		boolean comprouSorvete = executouTrabalho1 || executouTrabalho2; // false
+		boolean comprouSorvete = executouTrabalho1 || executouTrabalho2; // true
 		boolean comprouTv50 = executouTrabalho1 && executouTrabalho2; // false
-		boolean comprouTv32 = executouTrabalho1 ^ executouTrabalho2; // 
 		
 		System.out.println("Sorvete = " + comprouSorvete);
 		System.out.println("TV 50 = " + comprouTv50);
-		System.out.println("TV 32 = " + comprouTv32);
-		
-		// Operador unário intruso
-		System.out.println("Fome = " + !comprouSorvete);
-		
 
-		// EXEMPLO IMC
+		// Operador unário intruso
+		System.out.println("Fome = " + !comprouSorvete); // false
+
+
+        // EXEMPLO IMC
 		System.out.println("");
 		System.out.println("");
 		
@@ -42,14 +40,14 @@ public class OperadoresLogicos {
 		
 		double imc = peso / (altura * altura);
 		
-		//   _____________A____________    ||   ______________B__________
-		if ((sexo == 'F' && imc < 19.1)    ||  (sexo == 'M' && imc < 20.7)) {
+		//   _____________A____________            ||   ______________B__________
+		if ((sexo == 'F' && imc < 19.1)            || (sexo == 'M' && imc < 20.7)) {
 			System.out.println("Abaixo do peso.");
-		} else if ((sexo == 'F' && imc <= 25.8) || (sexo == 'M' && imc < 26.4)) {
+		} else if ((sexo == 'F' && imc <= 25.8)    || (sexo == 'M' && imc < 26.4)) {
 			System.out.println("Peso ideal");
-		} else if ((sexo == 'F' && imc <= 27.3) || (sexo == 'M' && imc < 27.8)) {
+		} else if ((sexo == 'F' && imc <= 27.3)    || (sexo == 'M' && imc < 27.8)) {
 			System.out.println("Um pouco acima do peso");
-		} // contina..
+		}
 		
 	}
 }

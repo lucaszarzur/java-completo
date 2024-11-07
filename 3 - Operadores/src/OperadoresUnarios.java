@@ -1,5 +1,7 @@
 package src;
 
+import java.util.Arrays;
+
 public class OperadoresUnarios {
 
 	public static void main(String[] args) {
@@ -23,7 +25,7 @@ public class OperadoresUnarios {
 		
 		// Negacao
 		System.out.println(!true); // false
-		
+
 		
 		// Complementando...
 		// A ordem faz diferença

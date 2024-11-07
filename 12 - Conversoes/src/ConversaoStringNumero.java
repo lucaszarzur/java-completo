@@ -18,5 +18,24 @@ public class ConversaoStringNumero {
 		double total = nota1 + nota2;
 		
 		System.out.println(total / 2);
+
+
+        // 2 - Inteiros
+        String numero = "4";
+        byte valueInByte = Byte.parseByte(numero);
+        short valueInShort = Short.parseShort(numero);
+        int valueInInt = Integer.parseInt(numero);
+        long valueInLong = Long.parseLong(numero);
+        System.out.println(valueInByte + " - " + valueInShort + " - " + valueInInt + " - " + valueInLong);
+
+        // 3 - Reais (Ponto Flutuante)
+        float valueInFloat = Float.parseFloat(numero);
+        double valueInDouble = Double.parseDouble(numero);
+        System.out.println(valueInFloat + " - " + valueInDouble);
+
+        // 4 - Boolean
+        boolean booleanValue = Boolean.parseBoolean("false");
+        System.out.println(booleanValue);
+
 	}
 }

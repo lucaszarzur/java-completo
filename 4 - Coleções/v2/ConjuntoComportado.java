@@ -1,9 +1,6 @@
 package src;
 
-import java.util.HashSet;
-import java.util.Set;
-import java.util.SortedSet;
-import java.util.TreeSet;
+import java.util.*;
 
 public class ConjuntoComportado {
 
@@ -15,7 +12,7 @@ public class ConjuntoComportado {
 		listaAprovados.add("Carlos");
 		listaAprovados.add("Luca");
 		listaAprovados.add("Pedro");
-		
+
 		for(String candidato: listaAprovados) {
 			System.out.println(candidato);
 		}

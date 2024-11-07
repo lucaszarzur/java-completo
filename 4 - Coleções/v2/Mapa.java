@@ -1,5 +1,7 @@
 package src;
 
+import dto.Usuario;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -7,7 +9,7 @@ import java.util.Map.Entry;
 public class Mapa {
 
 	public static void main(String[] args) {
-		
+		//   CHAVE    VALOR
 		Map<Integer, String> usuarios = new HashMap<>();
 		
 		usuarios.put(1, "Roberto");

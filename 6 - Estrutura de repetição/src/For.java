@@ -18,7 +18,7 @@ public class For {
 		double somaDasNotas = 0;
 		double nota = 0;
 		
-		// for (iniciacao; condicao; incremento)
+		// for (inicio;     condicao; incremento)
 		for (int indice = 0; indice <3; indice++) {
 			nota = scanner.nextDouble();
 			somaDasNotas += nota;

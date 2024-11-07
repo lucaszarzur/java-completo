@@ -39,6 +39,6 @@ public class OperadoresAritimeticos {
 		System.out.println("Total geral: " + totalGeral);
 		
 		int mediaGeral = (notaAluno1 + notaAluno2 + notaAluno3) / 3;
-		System.out.println("Media geral: " + mediaGeral);
+		System.out.println("Media geral: " + mediaGeral); // 77
 	}
 }
